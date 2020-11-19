@@ -1,0 +1,39 @@
+https://www.kaggle.com/biphili/time-series-data-analysis-stock-price
+
+Project Requirements/Guidelines
+S&P 500 stock data Analysis
+
+1.Define about S&P data and what it is about
+2.Define the fields in S&P data
+3.Now Data Manipulation:
+a.Check head and tail of data
+b.Check the structure and if need be convert fields
+c.Check for missing values, if needed do the filling
+d.Check for outliers and highlight them? (For this you can use box plot, normal distribution)
+4.EDA with python?
+1.How many months/years of data is provided?
+2.How many number of stocks?
+3.Descriptive stats for each stock:
+a.Overall max, min, avg, sd, variance, quantile across the time period
+b.Day when it has reached the max
+c.Overall max, min, avg, sd, variance, quantile across the time period on daily returns, for this do daily difference
+d.Overall max, min, avg, sd, variance, quantile across the time period for number of shares sold
+4.Visualization:
+a.Time series plot for all the stocks
+b.Time series plot for all the stocks on returns
+c.Histogram plot for all the stocks, for this understand quantiles and do proper binning?
+d.Histogram plot for all the stock returns, for this understand quantiles and do proper binning?
+e.Time series plot for max, avg monthly for all stocks
+Scatter plot for number of shares sold vs value for each stock?
+Use some advanced packages to select the stock and visualize it.
+5.Find the max value of each stock per month and year and pivot it
+6.Find the avg value of each stock per year and pivot it
+7.Do a bar plot to understand number of stocks with different average returns, average values
+5.Repeat the same with power bi
+
+Analysis/Report
+
+1.From the analysis done so far, for each visualization/analysis, in your own words(<100) explain what insights are identified?
+2.Analysis to understand:
+a.If you invest 100,000 in each stock, what will be the returns monthly over 5 years for each stock (Assumption, you will sell the stocks at the end of each month)? What are the top 10 and bottom 10 performing stocks each month?
+b.Assuming you were to present the results to business, design a BI dashboard with atleast 6 visuals and clear aesthetics.
